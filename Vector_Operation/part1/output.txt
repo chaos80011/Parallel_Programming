@@ -1,0 +1,51 @@
+ff
+ff
+[1;31mCLAMPED EXPONENT[0m (required) 
+Results matched with answer!
+****************** Printing Vector Unit Statistics *******************
+Vector Width:              16
+Total Vector Instructions: 100
+Vector Utilization:        78.2%
+Utilized Vector Lanes:     1251
+Total Vector Lanes:        1600
+************************ Result Verification *************************
+ClampedExp Passed!!!
+
+[1;31mARRAY SUM[0m (bonus) 
+Must have N % VECTOR_WIDTH == 0 for this problem (VECTOR_WIDTH is 16)
+ff
+ff
+[1;31mCLAMPED EXPONENT[0m (required) 
+Results matched with answer!
+****************** Printing Vector Unit Statistics *******************
+Vector Width:              16
+Total Vector Instructions: 100
+Vector Utilization:        78.2%
+Utilized Vector Lanes:     1251
+Total Vector Lanes:        1600
+************************ Result Verification *************************
+ClampedExp Passed!!!
+
+[1;31mARRAY SUM[0m (bonus) 
+Must have N % VECTOR_WIDTH == 0 for this problem (VECTOR_WIDTH is 16)
+ff
+ff
+[1;31mCLAMPED EXPONENT[0m (required) 
+output = -0.373284
+gold = 1.000000
+Wrong calculation at value[12]!
+value  =  2.360751  2.132397  2.646590  0.340891  0.111099  0.909588  0.459138  2.808919  1.542847 -0.433590 -0.934798 -0.451074 -0.373284 -0.480838  2.995698  1.051730  1.450559  1.550209  0.974332  0.170067 
+exp    =         6         5         5         2         1         7         9         6         6         6         8         9         0         3         5         2         8         7         6         2 
+output =  9.999999  9.999999  9.999999  0.116207  0.111099  0.515126  0.000907  9.999999  9.999999  0.006645  0.583097 -0.000773 -0.373284 -0.111172  9.999999  1.106135  9.999999  9.999999  0.855543  0.028923 
+gold   =  9.999999  9.999999  9.999999  0.116207  0.111099  0.515126  0.000907  9.999999  9.999999  0.006645  0.583097 -0.000773  1.000000 -0.111172  9.999999  1.106135  9.999999  9.999999  0.855543  0.028923 
+****************** Printing Vector Unit Statistics *******************
+Vector Width:              16
+Total Vector Instructions: 100
+Vector Utilization:        78.4%
+Utilized Vector Lanes:     1255
+Total Vector Lanes:        1600
+************************ Result Verification *************************
+@@@ ClampedExp Failed!!!
+
+[1;31mARRAY SUM[0m (bonus) 
+Must have N % VECTOR_WIDTH == 0 for this problem (VECTOR_WIDTH is 16)
